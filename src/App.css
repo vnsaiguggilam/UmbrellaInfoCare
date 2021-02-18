@@ -1,0 +1,213 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.abc ::-webkit-scrollbar{
+    display: none !important;
+
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.nomar{
+  margin: 0px;
+}
+
+.fa-address-book{
+  padding: 10px !important;
+  color: deeppink !important;
+  font-size: 48px !important;
+}
+.headerName{
+  position: relative;
+  margin-bottom: 10px;
+}
+.mainHeader{
+  position: absolute;
+  bottom: 32%;
+}
+.caption{
+    font-size: 10px;
+    position: absolute;
+    bottom: 20px;
+    /* left: 12%; */
+    color: gray;
+}
+.btn{
+    margin: 15px 5px;
+    color: #fff;
+    background-color: deeppink;
+    font-weight: 700;
+    outline: none;
+}
+.btn:hover{
+  color:#fff;
+}
+.editBtn{
+    float: right;
+    font-size: 12px;
+    color: blue;
+}
+
+.table thead tr th{
+  background-color: #eee;
+  padding: 15px 20px;
+  color:gray;
+}
+.table tbody tr td{
+  padding:20px 20px;  
+}
+.table tbody tr:hover{
+  background-color: #eee;
+  cursor: pointer;
+}
+.listHead {
+  background-color: #3f51b5;
+  font-weight: bold;
+  color:white;
+  border-radius: 12px;
+}
+.listbody {
+  background-color:lightgray;
+  font-weight: bold;
+  color: black;
+  border-radius: 12px;
+  margin: 1px 0px 15px !important;
+}
+.namePic{
+  width: 50px;
+  padding: 5px 15px;
+  background-color: white;
+  color:black;
+  border-radius: 50px;
+  margin: 0px 6px;
+  font-weight: bold;
+  font-size: 24px;
+  text-transform: capitalize;
+}
+.picGrid {
+  background-color: #3f51b5;
+  color: white;
+  text-transform: capitalize;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 50%;
+  height: 30px;
+  margin: 84px;
+  width: 38px;
+
+}
+.GridComp {
+  display: flex;
+}
+.listTitle{
+  position: absolute;
+  font-size: 18px;
+  font-weight: bold;
+}
+.listCaption{
+    color: gray;
+    font-size: x-small;
+    position: absolute;
+    bottom: 0px;
+    font-weight: 500;
+}
+.nextList{
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.viewDetails{
+  padding: 10px 10px;
+  font-size: 14px;
+  font-weight: 500;
+}
+.viewDetails_title{
+   color:gray !important;
+}
+
+.model_box{
+  padding:25px;
+}
+.model_box input{
+  padding: 8px 15px;
+  margin: 5px auto;
+  width: 80%;
+  display: block;
+  border: 2px solid gray;
+}
+.model_box button{
+  padding: 5px 20px;
+  margin: 10px 20px;
+  background-color: gray;
+  color: #fff;
+  border: 0px;
+}
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width:100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.modal-main {
+  position:fixed;
+  background: white;
+  width: 50%;
+  height: auto;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+}
+
+.display-block {
+  display: block;
+}
+
+.display-none {
+  display: none;
+}
